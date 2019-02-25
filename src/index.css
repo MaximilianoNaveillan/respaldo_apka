@@ -1,0 +1,461 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+
+.marginandpadding0{
+  margin-bottom:0px !important;
+  margin-top:0px !important;
+  margin-left:0px !important;
+  margin-right:0px !important;
+  padding-top:0px !important;
+  padding-bottom:0px !important;
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+
+}
+.margin0{
+  margin-bottom:0px !important;
+  margin-top:0px !important;
+  margin-left:0px !important;
+  margin-right:0px !important;
+}
+
+
+
+
+
+
+.padding0{
+  padding-top:0px !important;
+  padding-bottom:0px !important;
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
+
+.hidden{
+  display: none !important;
+}
+
+.hidden-visibility{
+  visibility: hidden!important;
+}
+
+
+
+
+
+
+
+
+
+
+.input-field{
+  margin-top: 0px;
+}
+
+
+
+
+
+
+.iconuser{
+  margin-bottom:0px !important;
+  margin-top:0px !important;
+  border:none;
+  width:75px !important;
+  height: 60px !important;
+  max-height: 60px !important;
+
+}
+.iconuser li{
+  background:transparent !important;
+  height: 100% !important;
+  max-height: 100% !important;
+  cursor: pointer;
+}
+
+nav {
+    height: 60px;
+    line-height: 60px;
+}
+
+nav i, nav [class^="mdi-"], nav [class*="mdi-"], nav i.material-icons {
+    height: 60px;
+    line-height: 60px;
+}
+
+nav .button-collapse i {
+    height: 60px;
+    line-height: 60px;
+}
+
+nav .brand-logo {
+    font-size: 1.6rem;
+}
+
+@media only screen and (min-width: 601px){
+    nav, nav .nav-wrapper i, nav a.button-collapse, nav a.button-collapse i {
+        height: 60px;
+        line-height: 60px;
+    }
+}
+
+
+.toast-action i{
+  font-size: 20pt !important;
+}
+
+.toast-span{
+  font-size: 14pt!important;
+}
+
+
+
+
+
+
+
+
+.loginmodal{
+  max-height:90vh !important;
+  min-width: 310px !important;
+}
+.modal-footer{
+  background:transparent !important;
+  margin-bottom:0px !important;
+  margin-top:0px !important;
+  padding-top:0px !important;
+  padding-bottom:0px !important;
+  height: 45px !important;
+}
+
+
+
+
+.chargephoto {
+ margin-top:0px !important;
+ margin-left:-69px;
+ border: none;
+ display: inline-block;
+ padding-left: 5px;
+ padding-right: 5px;
+ text-transform: uppercase;
+ vertical-align: middle;
+ -webkit-tap-highlight-color: transparent;
+ cursor:pointer;
+}
+
+
+.chargephoto i{
+float:left;
+font-size:13pt;
+margin-right:5px;
+padding-top:1pt;
+}
+
+.chargephotoinput{
+float:left;
+width: auto !important;
+height:12pt !important;
+border-bottom:0px !important;
+margin-bottom:0px !important;
+margin-top:0px !important;
+margin-left:0px !important;
+margin-right:0px !important;
+padding-top:0px !important;
+padding-bottom:5px !important;
+padding-left: 0px !important;
+padding-right: 0px !important;
+height: 20px !important;
+line-height: 20px !important;
+font-size:10.5pt !important;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.contentmap{
+  position: fixed;
+     height: 100vh;
+     width: 100%;
+}
+
+.map{
+  position: relative;
+   height: inherit;
+   width: inherit;
+}
+
+
+.locationicon{
+  background: #009688 !important;
+  color:#009688 !important;
+  border-radius: 50%;
+  opacity:0.2;
+  box-shadow: 0 0 0 20px #009688;
+}
+
+.imagepulse {
+  position: relative;
+    border: none;
+    border-radius: 50%;
+    background-color:#fff;
+    background-size:cover;
+    background-repeat: no-repeat;
+    cursor: pointer;
+
+    box-shadow: 0 0 0 45px rgba(232, 76, 61, 0);
+
+    }
+
+  .pulse-button:hover
+  {
+    -webkit-animation: none;-moz-animation: none;-ms-animation: none;animation: none;
+  }
+
+
+
+.styleopenmodal{
+  z-index: 1003;
+  display: block;
+  opacity: 1;
+  top: 10%;
+  transform: scaleX(1) scaleY(1);
+}
+
+
+
+.fixedbtnbtn{
+  opacity: 1 !important;
+  transform: scale(1) translateY(0px) translateX(0px) !important;
+  margin-top:5px;
+}
+
+.fixedtop{
+  position:fixed;
+  z-index:1000;
+  left:29px;
+  top:4px;
+  transition-property: opacity, left, top, height;
+  transition-duration: 0.3s, 0.5s;
+  animation: 1s ease-out 0s 1 slideInFromLeft;
+
+}
+
+
+.fixedtopon{
+  position:fixed;
+  z-index:1000;
+  left:8px;
+  top:4px;
+  transition-property: opacity, left, top, height;
+  transition-duration: 0.3s, 0.5s;
+  animation: fadeout 0.3s, 0.5s;
+}
+@keyframes fadeout {
+  from { left:29px;}
+  to   { left:8px;}
+}
+
+
+.ulstringsearch{
+  z-index: 1000;
+overflow: auto !important;
+border-top:0px !important;
+margin-top:0px !important;
+margin-bottom:0px !important;
+padding-top:0px !important;
+padding-left:0px !important;
+padding-right:0px !important;
+max-height:90vh !important;
+padding-bottom:4vh !important;
+animation: ulstringsearchin 0.3s, 0.5s;
+}
+@keyframes ulstringsearchin {
+from { overflow: hidden ;}
+to   { overflow: hidden ;}
+}
+
+.fixed {
+  position:fixed;
+}
+
+#lisearch{
+  margin-top:1%;
+}
+
+.divsearch{
+  background: transparent !important;
+  margin-left:55px !important;
+  padding-left:0px !important;
+  padding-right:0px !important;
+  min-height: 59px !important;
+  margin-bottom: 0px !important;
+}
+.divsearchfield{
+
+}
+.divsearchfield i{
+margin-right: 0px !important;
+margin-left: 0px !important;
+padding-left:15px !important;
+padding-right:0px !important;
+padding-top:5px !important;
+font-size: 20pt !important;
+}
+.divsearch input{
+  background: transparent !important;
+  padding-right:0px !important;
+  padding-bottom:0px;
+  height: 52px !important;
+  border:0px !important;
+  line-height: 52px !important;
+  margin-bottom:0px !important;
+  padding-top:0px !important;
+}
+
+
+.ulstringsearch li{
+  height:auto !important;
+  max-height: none !important;
+  padding-bottom:0px !important;
+  padding-top:0px !important;
+  padding-left:0px !important;
+  padding-right:0px !important;
+
+}
+
+.ulstringsearch a{
+  height:auto !important;
+  max-height: none !important;
+  margin-bottom:0px;
+  margin-top:0px;
+  margin-left:0px;
+  margin-right:0px;
+}
+
+.vehicleselect{
+  padding-bottom:0px !important;
+  padding-top:0px !important;
+  margin-left:2.5%;
+  margin-right:2.5%;
+  width:95%;
+  cursor:pointer;
+  margin-bottom:0px;
+  margin-top:0px;
+}
+
+.vehicleselect i{
+   vertical-align: middle;
+   width: inherit;
+   cursor:pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.imagepulseicon {
+  position: relative;
+    border: none;
+    box-shadow: 0 0 0 0 rgba(232, 76, 61, 0.7);
+    border-radius: 50%;
+    background-size:cover;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    -webkit-animation: pulse 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+    -moz-animation: pulse 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+    -ms-animation: pulse 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+    animation: pulse 1.25s infinite cubic-bezier(0.66, 0, 0, 1);
+  }
+  .pulse-button:hover
+  {
+    -webkit-animation: none;-moz-animation: none;-ms-animation: none;animation: none;
+  }
+
+  @-webkit-keyframes pulse {to {box-shadow: 0 0 0 45px rgba(232, 76, 61, 0);}}
+  @-moz-keyframes pulse {to {box-shadow: 0 0 0 45px rgba(232, 76, 61, 0);}}
+  @-ms-keyframes pulse {to {box-shadow: 0 0 0 45px rgba(232, 76, 61, 0);}}
+  @keyframes pulse {to {box-shadow: 0 0 0 45px rgba(232, 76, 61, 0);}}
+
+
+
+  .traslateon{
+    transform:translateX(0%) !important;
+
+}
+
+
+
+  .traslateoff{
+    transform:translateX(-105%) !important;
+  }
+
+
+
+
+
+
+
+  .publictitle{
+    width:100%;
+    background: #111;
+    opacity: 0.5;
+    filter: alpha(opacity=60);
+    text-align:center;
+    position:absolute;
+    top: 0px;
+    margin-top:0px;
+    padding-top:12px;
+    padding-left:15px;
+    padding-right:15px;
+    padding-bottom:10px;
+    color:#fff;
+  }
+
+  .spantitle{
+    width:100%;
+    background: #111;
+    opacity: 0.6;
+    filter: alpha(opacity=60);
+    padding-bottom:15px !important;
+    padding-top:15px !important;
+  }
